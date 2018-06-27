@@ -15,5 +15,7 @@ const binarySearch = (item, list) => {
   throw new Error(`${item} not found`);
 };
 
+export default binarySearch;
+
 // the maximum number of steps is log2(n)
 // on the contrary to simple search
