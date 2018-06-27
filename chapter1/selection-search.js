@@ -9,7 +9,7 @@ const findMin = (array) => {
   }
   return index;
 };
-console.log(findMin([50, 60, 50, 40, 50]));
+
 const selectionSearch = (array) => {
   const output = [];
   const bound = array.length;
